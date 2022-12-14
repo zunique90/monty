@@ -63,5 +63,6 @@ void _rotl(stack_t **stack, unsigned int line_number);
 void _rotr(stack_t **stack, unsigned int line_number);
 void is_valid(char **token, stack_t **stack);
 void free_stack(stack_t **stack);
+void _nop(stack_t **stack, unsigned int line_number);
 
 #endif /* MONTY_H */

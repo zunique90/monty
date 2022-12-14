@@ -1,10 +1,13 @@
+#define  _GNU_SOURCE
 #include "monty.h"
+
+unsigned int line_number = 0;
 
 /**
  * main - entry point of the program
  * @argc: argument count
  * @argv: argument list
- * Return: Nothing
+ * Return: (0) Always success
  */
 int main(int argc, char *argv[])
 {
